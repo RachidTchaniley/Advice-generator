@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link href="style.css" rel="stylesheet"></link>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <!-- Advice ID goes here -->
+  <section class="wrap">
+    <div class="message-container">
+      <div id="welcome">
+        <div id="greetings">
+        <p class="pp"> Welcome,</p> 
+        <p class="pp">Today is a great day to get </p>
+        <p class="pp">some advice! </p>
+      </div>
+        <img src="images/pattern-divider-desktop.svg" id="divider">
+      </div>
+      <div id="dice-div">
+        <img src="images/icon-dice.svg" id="dice">
+        </div>
+      <div id="messages">
+        <p id="message-number">ADVICE # <span> </span></p>
+        <p id="show-message">Please Click the flickering button <br> to begin.</p>
+        <img id="divider2" src="images/pattern-divider-desktop.svg">
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Advice text goes here -->
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script defer src="script.js"></script>
+</body>
+</html>
